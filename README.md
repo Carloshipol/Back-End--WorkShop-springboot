@@ -6,15 +6,7 @@
 
 # About the project
 
-Workshop is a cool Spring Boot project where we've put our critical thinking hats on and embraced some solid coding practices.
-
-So, what's in the back end? Imagine a bustling little virtual company with all the works – users, orders, items in those orders, order statuses, product categories, payments, and of course, the products themselves.
-
-And hey, we're not just building it, we're also taking care of those pesky errors and exceptions that might pop up along the way. We're using JPA/Hibernate to handle all that nitty-gritty data processing stuff.
-
-Oh, and for our testing and quick queries, we've got H2, the handy in-memory database, at our service.
-
-In a nutshell, Workshop is all about flexing our coding muscles while keeping things efficient and error-free in the back end.
+Developing a REST API for an online shopping cart in an e-commerce setting, using Java and Spring as backend technologies. Handling exceptions with JPA/Hibernate and utilizing H2 for unit testing in accordance with good software development practices.
 
 # technologies used
 ## Back end
