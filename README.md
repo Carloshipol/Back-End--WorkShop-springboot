@@ -6,9 +6,7 @@
 
 # About the project
 
-Workshop is a back end project built in Spring Boot with critical thinking and good practices.
-
-The Back End consists of a company with user, order, order of items,  order status, categories, payments and products. Handling errors, exceptions and data processing using JPA/HIBERNATE. Using the H2 in-memory database for queries and testing.
+Developing a REST API for an online shopping cart in an e-commerce setting, using Java and Spring as backend technologies. Handling exceptions with JPA/Hibernate and utilizing H2 for unit testing in accordance with good software development practices.
 
 # technologies used
 ## Back end
