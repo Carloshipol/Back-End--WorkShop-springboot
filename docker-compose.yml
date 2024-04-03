@@ -1,0 +1,34 @@
+services:
+  api:
+    image: workshop
+    build:
+      context: .
+      dockerfile: Dockerfile
+    networks:
+       - api
+    depends_on:
+      - db
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/workshop_springboot
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=garudalu33
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+    ports:
+      - "8080:8080"
+
+  db:
+    container_name: postgres
+    image: postgres:15.3-alpine
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: garudalu33
+      POSTGRES_DB: workshop_springboot
+    ports:
+      - "5432:5432"
+    networks:
+      - api
+    restart: always
+
+networks:
+  api:
+    driver: bridge
