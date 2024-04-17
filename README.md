@@ -6,7 +6,9 @@
 
 # About the project
 
-Developing a REST API for an online shopping cart in an e-commerce setting, using Java and Spring as backend technologies. Handling exceptions with JPA/Hibernate and utilizing H2 for unit testing in accordance with good software development practices.
+- Development of a REST API within the context of an e-commerce shopping cart, using Java and Spring as backend technologies. 
+- Exception handling with JPA/Hibernate and utilization of H2 for unit test coding following software development best practices. 
+- Application deployment using a Docker container architecture.
 
 # technologies used
 ## Back end
@@ -15,6 +17,8 @@ Developing a REST API for an online shopping cart in an e-commerce setting, usin
 - JPA / Hibernate
 - Maven
 - H2 database
+- Docker
+- Postgres
 #
 
 # Domain Model
